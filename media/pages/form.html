@@ -1,0 +1,31 @@
+<div class="form-style">
+	<form action="../../send2.php" method="post">
+		<input type="text" name="name" placeholder="enter name"/>
+		<input type="text" name="city" placeholder="enter city"/>
+		<input type="tel" name="phone" placeholder="enter phone"/>
+		<input type="email" name="email" placeholder="enter email"/>
+		<div class="text-form-section"> choose comfortable messenger</div>
+		<select class="messenger" name="messenger">
+			<option value="1">Telegram</option>
+			<option value="2">Whatsapp</option>
+			<option value="3">Viber</option>
+			<option value="4">Skype</option>
+		</select>
+		<div class="style_button_form_js">
+			<button class="submit" type="submit">enter</button>
+			<button class="reset" type="reset">censel</button>
+		</div> 
+	</form>
+</div>
+<script>
+	$(function(){
+
+	
+$("<a>").attr("href","#").addClass("modal-close").html("&times;").click(function(event){
+	event.preventDefault();
+	$(".modal-window").remove();
+	$(".averLay").remove();
+}).appendTo($(".modal-window"));
+})
+</script>
+

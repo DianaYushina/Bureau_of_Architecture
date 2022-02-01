@@ -1,0 +1,35 @@
+<div class="form-style">
+	<form action="../../send.php" method="post">
+		<input type="text" name="name" placeholder="enter name"/>
+ 		
+		<div class="text-form-section"> Choose language</div>
+ 		<select class="language-about" name="language">
+ 			<option value="1">ru</option>
+ 			<option value="2">en</option>
+ 		</select>
+
+		<input class="article-about" name="body" name="article" placeholder="enter article description" />
+		
+		<input type="file" name="file" placeholder="add file"/>
+		
+		<input type="url" name="url" placeholder="enter link"/>
+		
+		<input type="date" name="date" placeholder="enter date  (2022 March 23)"/>
+		
+		<div class="style_button_form_js">
+			<button class="submit" type="submit">enter</button>
+			<button class="reset" type="reset">censel</button>
+		</div> 
+	</form>
+</div>
+<script>
+	$(function(){
+
+	
+$("<a>").attr("href","#").addClass("modal-close").html("&times;").click(function(event){
+	event.preventDefault();
+	$(".modal-window").remove();
+	$(".averLay").remove();
+}).appendTo($(".modal-window"));
+})
+</script>
