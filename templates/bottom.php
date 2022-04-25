@@ -4,29 +4,39 @@
 					<h1 class="logo"><a class="menu-a" href="#">DY</a></h1>
 					<div class="text-footer">Lizenzo street number 12 Jakarta, Indonesia</div>
 					<div class="style-button-a-fotter">
-						<a class="button-a-fotter" href="#">Get directions</a>
+						<a class="button-a-fotter" id="button-form-1" href="#">Get directions</a>
 					</div>
 				</div>
 
 				<div>
-					<h4 class="categories">Menu</h4>
+					<h4 class="categories">MENU</h4>
 					<div>
-						<a class="menu-a-footer" href="#">Home</a>
+						<a class="menu-a-footer" href="/">HOME</a>
 					</div>
 					<div>
-						<a class="menu-a-footer" href="#">About</a>
+						<a class="menu-a-footer" href="/static.php?url=about">ABOUT</a>
 					</div>
-					<div>
+					<!-- <div>
 						<a class="menu-a-footer" href="#">Gallery</a>
-					</div>
+					</div> -->
 					<div>
-						<a class="menu-a-footer" href="#">Service</a>
+						<a class="menu-a-footer" href="/static.php?url=products">PRODUCTS</a>
 					</div>
 				</div>
-
+				
 				<div>
-					<h4 class="categories">Contacts</h4>
+					<h4 class="categories">CONTACTS</h4>
 					<div>
+						<a class="menu-a-footer" href="/static.php?url=news">NEWS</a>
+					</div>
+					<div>
+						<a class="menu-a-footer" href="/static.php?url=contact">CONTACTS</a>
+					</div>
+
+					<div>
+						<a class="menu-a-footer" href="/">OUR WORKS</a>
+					</div>
+					<!-- <div>
 						<a class="menu-a-footer" href="#">E-mail</a>
 					</div>
 					<div>
@@ -34,30 +44,29 @@
 					</div>
 					<div>
 						<a class="menu-a-footer" href="#">Telegram</a>
-					</div>
-					<div>
+					</div> -->
+					<!-- <div>
 						<a class="menu-a-footer" href="#">Map</a>
-					</div>
+					</div> -->
 				</div>
 				
 				<div>
-					<h4 class="categories">Products</h4>
+					<h4 class="categories">PRODUCTS</h4>
 					<div>
-						<a class="menu-a-footer" href="#">Furniture</a>
+						<a class="menu-a-footer" href="/static.php?url=products">FURNITURE</a>
 					</div>
 					<div>
-						<a class="menu-a-footer" href="#">Design projects</a>
+						<a class="menu-a-footer" href="/static.php?url=reviews">REVIEWS</a>
 					</div>
-					<div>
-						<a class="menu-a-footer" href="#">Architectural projects</a>
-					</div>
-					<div>
-						<a class="menu-a-footer" href="#">Author's supervision</a>
-					</div>
+					 <div>
+						<a class="menu-a-footer" href="/categories.php">CATEGORIES</a>
+					</div> 
 				</div>
 			</div>
 		</footer>
 		<script src="/media/js/jquery-3.6.0.min.js"></script>
 		<script src="/media/js/menu.js"></script>
+		<script src="/media/js/jquery.cookie.js"></script>
+		<script src="/media/js/card.js"></script>
 	</body>
 	</html>

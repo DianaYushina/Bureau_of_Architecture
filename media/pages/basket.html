@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../media/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-bold_b">Your order</div>
+    <!-- <div>фото заказа</div>
+    <div>имя заказа</div>
+    <div>цена заказа</div> -->
+    <div class="items-counter-wrapper">
+        <div class="items_control" data-action="minus">-</div>
+        <div class="items_current" data-counte>1</div>
+        <div class="items_control" data-action="plus">+</div>
+    </div>
+    <div class="w-bold_b">Delivery: <span class="f-green">free</span></div>
+    <div class="t-w_b">TOTAL:</div>
+    <div class="border_basket">
+        <div class="b_basket"></div>
+    </div>
+    <div class="w-bold_b">Сheckout</div>
+    <form>
+        <input type="tel" placeholder="Enter phone number">
+        <input type="text" placeholder="Enter adress: street,hous">
+        <button class="b-basket-style" type="submit">ORDER</button>
+    </form>
+   
+   <script>
+        $(function(){
+    
+        
+    $("<a>").attr("href","#").addClass("modal-close").html("&times;").click(function(event){
+        event.preventDefault();
+        $(".modal-window").remove();
+        $(".averLay").remove();
+    }).appendTo($(".modal-window"));
+    })
+    </script>
+<!-- <script src="media/js/counter.js"></script> -->
+</body>
+</html>

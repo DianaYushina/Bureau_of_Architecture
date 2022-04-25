@@ -75,9 +75,9 @@ require_once("templates/top.php");
 						<h5 class="h-style-p4">30+ House</h5>
 						<h5 class="h-style-p4">20+ Building</h5>
 					</div>
-					<div class="button-p4">
+					<!-- <div class="button-p4">
 						<a class="button-a-p4" href="#">See more</a>
-					</div>
+					</div> -->
 				</div> 
 			</div>
 		</div>
@@ -112,7 +112,7 @@ require_once("templates/top.php");
 					</div>
 				</div>
 				<div class="photo-style-p6">
-					<img src="media/img/img.jpg">
+					<img src="media/img/img___.jpg">
 				</div>
 			</div>
 			<div class="background-p6">
@@ -182,7 +182,7 @@ require_once("templates/top.php");
 			</div>
 			<div class="photo-style-p8-1">
 				<div class="photo-p8">
-					<img  src="media/img/Rectangle 15.jpg"/>
+					<img src="media/img/Rectangle 15.jpg"/>
 				</div>
 				<div class="photo-p8">
 					<img src="media/img/Rectangle 16.jpg" />
@@ -221,14 +221,14 @@ require_once("templates/top.php");
 			</div>
 
 			<div class="style-p8-photos-2">
-				<div>
+				<!-- <div>
 					<img class="po-photo-p8" src="media/img/Rectangle 111.jpg"/>
 					<div class="text-p8-1-photo">What our clients say?</div>
 					<div class="text-p8-2-photo">See what our clients say about their new home</div>
 					<div class="button-p8">
 						<a class="button-a-p8" href="#">See more</a>
 					</div> 
-				</div>
+				</div> -->
 
 				<div class="photo-position-p8">
 					<img src="media/img/Rectangle 23.jpg"/>
@@ -245,10 +245,10 @@ require_once("templates/top.php");
 				<div class="p9-text">Submit your e-mail and we will give you update about information and discount. Every single week. (not spamming)
 				</div>
 			</div>
-			<form class="form-style-p9">
+			<!-- <form class="form-style-p9">
 				<input class="input_style-p9" type="search" name="search" placeholder="Enter your e-mail here">
 				<button class="button-submit-p9" type="submit">Submit</button>
-			</form>
+			</form> -->
 
 		 </div>
 
